@@ -7,6 +7,13 @@ timer.end()
 ```
 Simple as that. Batteries included - no dependencies required. 🔋
 
+# ⬇️ Installation
+Simply `git clone` and `pip install`:
+```sh
+$ git clone https://github.com/prince-ravi-leow/simpler_timer.git
+$ python3 -m pip install .
+```
+
 # ⚡️ Simple usage
 Say you want to time a simple operation. 
 
