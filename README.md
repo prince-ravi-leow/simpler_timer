@@ -36,16 +36,16 @@ Want to recall the non-formatted time in seconds? *Easy*:
 
 # 🍬 Other goodies
 ## Monitor timer status / progress
-Use `.status` attribute or Boolean evaluation with `.is_running()` method:
+Use `.status` attribute or Boolean evaluation with `.is_active()` method:
 ```py
 >>> timer = SimplerTimer()
->>> timer.is_running()
+>>> timer.is_active()
 True
 >>> timer.end()
 >>> timer.status
 'Inactive'
 ```
-Get progress readout of running timer:
+Get progress readout of active timer:
 
 ```py
 >>> timer.start()
@@ -61,13 +61,13 @@ Does what it says on the tin:
 ```py
 >>> timer = SimpleTimer()
 >>> timer.pause()
->>> timer.is_running()
+>>> timer.is_active()
 True
 >>> timer.resume()
 >>> timer.status
 'Active (resumed)'
 ```
-> *Note that pausing/resuming affects `.status` attribute, but `is_active()` evaluates as `True`.*
+> *Note that pausing/resuming affects `.status` attribute, but `.is_active()` evaluates as `True`.*
 ## Timestamps for humans
 Tired of reporting execution times with a bazillion decimal places?
 
