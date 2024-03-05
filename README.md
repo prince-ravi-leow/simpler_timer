@@ -80,7 +80,7 @@ Worry no more - use `strip = True` to purge those pesky trailing digits with ext
 >>> timer.timestamp(strip = True)
 0:00:31
 ```
-> *Currently only works for inactive timer with `report()` and `timestamp()` methods*.
+> *Currently only works for inactive timer with `.report()` and `.timestamp()` methods*.
 
 # ⛔️ What this tool is *not* (...or more specifically what it *is*)
 This is *not* a command line utility.

@@ -149,10 +149,10 @@ def simplerer_timer(start:float = None) -> float:
 	"""
 	*** (even) simpler timer ***
 	Usage:
-	>>> from simpler_timer import simpler_timer
-	>>> start = simpler_timer()
+	>>> from simpler_timer import simplerer_timer
+	>>> start = simplerer_timer()
 	>>> my_awesome_function()
-	>>> simpler_timer(start)
+	>>> simplerer_timer(start)
 	Elapsed time (H:MM:SS.ff): 0:00:01.340824
 	1.3408238887786865
 	"""
