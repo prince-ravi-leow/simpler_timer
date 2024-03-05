@@ -1,5 +1,5 @@
 # ⏱️ `simpler_timer`: a simple interactive-first timer for all your Python timekeeping needs 
-# ❗️ TL;DR - or the impatient...
+# ❗️ TL;DR - for the impatient...
 ```py
 from simpler_timer import SimplerTimer
 timer = SimplerTimer()
