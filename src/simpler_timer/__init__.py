@@ -1,1 +1,1 @@
-from .simpler_timer import SimplerTimer, simplerer_timer
+from .timer import SimplerTimer, simplerer_timer
