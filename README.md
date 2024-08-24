@@ -1,4 +1,4 @@
-# ⏱️ `SimplerTimer`: a simple interactive-first timer for all your Python timekeeping needs 
+# ⏱️ `simpler_timer`: a simple interactive-first timer for all your Python timekeeping needs 
 # ❗️ TL;DR - for the impatient...
 ```py
 from simpler_timer import SimplerTimer
