@@ -10,8 +10,8 @@ Simple as that. Batteries included - no dependencies required. 🔋
 # ⬇️ Installation
 Simply `git clone` and `pip install`:
 ```sh
-$ git clone https://github.com/prince-ravi-leow/simpler_timer.git
-$ python3 -m pip install simpler_timer/
+$ git clone https://github.com/prince-ravi-leow/simpler_timer.git && cd simpler_timer/
+$ python3 -m pip -e install .
 ```
 
 # ⚡️ Simple usage
