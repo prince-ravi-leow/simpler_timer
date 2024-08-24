@@ -8,10 +8,15 @@ timer.end()
 Simple as that. Batteries included - no dependencies required. 🔋
 
 # ⬇️ Installation
-Simply `git clone` and `pip install`:
+Simply `pip install`
+```sh
+$ pip install simpler_timer
+```
+
+For development version
 ```sh
 $ git clone https://github.com/prince-ravi-leow/simpler_timer.git && cd simpler_timer/
-$ python3 -m pip -e install .
+$ pip install -e .
 ```
 
 # ⚡️ Simple usage
