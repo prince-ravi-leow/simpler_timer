@@ -7,10 +7,11 @@ name = "simpler_timer"
 version = "0.0.1"
 dependencies = []
 readme = "README.md"
+description = "⏱️ A simple interactive-first timer for all your Python timekeeping needs"
 authors = [{ name = "Prince Ravi Leow", email = "princeravileow@outlook.com" }]
-license = { text = "MIT License" }
+license = {file = "LICENSE"}
 classifiers = [
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
