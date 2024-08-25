@@ -10,7 +10,7 @@ Simple as that. Batteries included - no dependencies required. 🔋
 # ⬇️ Installation
 Simply `pip install`
 ```sh
-$ pip install simpler_timer
+$ pip install simpler-timer
 ```
 
 For development version
