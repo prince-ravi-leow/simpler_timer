@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "simpler_timer"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = []
 readme = "README.md"
 description = "⏱️ A simple interactive-first timer for all your Python timekeeping needs"
